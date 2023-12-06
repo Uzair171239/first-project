@@ -1,3 +1,38 @@
-table, th, td {
-    border: 1px solid black;
-  }
+/* .parent { */
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  
+  /* padding: 50px 0px; */
+/* } */
+.uzair {
+  height: 50px;
+  width: 50px;
+  border: 2px solid red;
+  /* padding: 10px; */
+  align-content: center;
+  text-align: center;
+  border-radius: 20px;
+  /* background-image: url("Women_Pret_2_2.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* color: white; */
+}
+.uzair-2 {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  /* padding: 10px; */
+  align-content: center;
+  text-align: center;
+  border-radius: 20px;
+  /* background-image: url("Women_Pret_2_2.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* color: white; */
+}
+.uzair-2 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
