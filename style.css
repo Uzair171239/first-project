@@ -7,13 +7,15 @@
   /* padding: 50px 0px; */
 /* } */
 .uzair {
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 150px;
+  float: inline-end;
   border: 2px solid red;
   /* padding: 10px; */
   align-content: center;
   text-align: center;
   border-radius: 20px;
+  overflow-y: auto;
   /* background-image: url("Women_Pret_2_2.jpg"); */
   /* background-repeat: no-repeat; */
   /* color: white; */
