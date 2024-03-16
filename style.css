@@ -38,6 +38,9 @@
   left: 0;
   top: 0;
 }
+p {
+  color: aquamarine !important;
+}
 
 p,
 p + p,
@@ -67,4 +70,54 @@ div {
 #table tr:hover {
   background: #ffffff;
   color: black;
+}
+p, p+p, p+span, div {
+  /* color: red; */
+}
+
+div:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+button:active {
+  background-color: red;
+}
+
+p {
+  color: blue;
+  font-variant: small-caps;
+}
+
+.block {
+  width: 100%;
+  border: 1px solid black;
+  height: calc(100vh - 300px);
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  height: 50px;
+  padding: 15px;
+}
+ul li.active {
+  background-color: green !important;
+}
+
+li:hover {
+  background-color: green !important;
 }
