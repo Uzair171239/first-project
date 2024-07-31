@@ -68,3 +68,19 @@ console.log(grade)
 // if speed exceed/increase from 30 to 40 range gear will change to 3rd
 // if speed exceed/increase from 40 to 50 range gear will change to 4th
 // if speed exceeds from 50 gear will be 5th
+
+// while(number < 100) {
+    //     console.log(number);
+    //     number++
+    // }
+    
+var number = 100;
+do {
+    console.log(number);
+    number++
+} while(number < 100)
+
+    var array = ["irtiza", "uzair", "majid", "ameen", "luthfi", "saleem", 20, false]
+    for(var i=0; i<array.length; i++) {
+        console.log(array[i])
+    }
